@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    padding-left: 1200px;
+}
+
+#navigation a {
+    color: white;
+}
+
+#navigation a:hover {
+    color: gray;
+}
+
+#navigation li {
+    color: white;
+}
+
+#navigation p {
+    color: white;
+}
