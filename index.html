@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,91 +8,68 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="Pictures/favicon_io/favicon.ico">
     <link rel="apple-touch-icon" href="Pictures/luna2.png">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheeter</title>
-    <script type="text/javascript">
-            window.$crisp=[];
-            window.CRISP_WEBSITE_ID="757655c7-6bb0-42b1-b591-f92b44861c81";(function(){d=document;s=d.createElement("script");
-            s.src="https://client.crisp.chat/l.js";
-            s.async=1;d.getElementsByTagName("head")[0].appendChild(s);
-        })();
-    </script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    
+
     <header class="header">
-
-            <a href="#" class="logo"><img src="source/pictures/cheeter.png" width="130px"></a>
-
-            <nav class="navbar">
-                <a href="#" class="active">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">Placeholder</a>
-                <a href="#">Documentation</a>
-                <a href="#">Languages</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header>
+        <a href="#" class="logo"><img src="source/pictures/cheeter.png" width="100px" alt="Cheeter Logo"></a>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Placeholder</a>
+            <a href="#">Documentation</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
     <section class="home">
-        <div class="home-content">
+        <div class="home-content animate-slide-in">
             <h2>Happy third anniversary!</h2>
             <h1>We are turning three years old!</h1>
             <h2>And for that we are announcing <span>new Projects!</span></h2>
-            <br>
-
             <a href="#" class="btn">Download CV</a>
         </div>
-
-        <div class="home-img">
+        <div class="home-img animate-fade-in">
             <img src="source/pictures/luna2.png" alt="Luna Logo">
         </div>
     </section>
 
-    <footer>    
+    <footer>
+        <br>
         <div class="footer-links">
-            <h3>
-                        © 2021 - 2024 Cheeter Technologies™
-            </h3>
-            <br>
-            <h1>
+            <h3>© 2021 - 2024 Cheeter Technologies™</h3>
+            <div>
                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                <a href="https://www.youtube.com/@cheeterdev"><i class='bx bxl-youtube' ></i></a>
-                <a href="https://dsc.gg/cheeter"><i class='bx bxl-discord-alt' ></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.youtube.com/@cheeterdev"><i class='bx bxl-youtube'></i></a>
+                <a href="https://dsc.gg/cheeter"><i class='bx bxl-discord-alt'></i></a>
                 <a href="https://github.com/cheeterdev"><i class='bx bxl-github'></i></a>
-            </h1>
-            <div id="google_translate_element"></div>
-
-                </div>
-
+            </div>
+        </div>
         <div class="footer-content">
-            <div class="fc-devs" style="width:200px;float:left">
+            <div class="fc-devs">
                 <h3>For Developers</h3>
-                <br>
-                <h4><a href="https://github.com/cheeterdev/CCMumtad">CCMumtad</a></h4>
+                <a href="https://github.com/cheeterdev/CCMumtad">CCMumtad</a>
             </div>
-
-            <div class="fc-services" style="width:200px;float:left">
+            <div class="fc-services">
                 <h3>Our Services</h3>
-                <br>
-                <h4>coming soon</h4>
+                <p>coming soon</p>
             </div>
-
-            <div class="fc-cheeter" style="float: right;">
+            <div class="fc-cheeter">
                 <h3>About Cheeter</h3>
-                <br>
-                <h4>coming soon</h4>
+                <p>coming soon</p>
             </div>
         </div>
     </footer>
-    <script src="index.js"></script>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
